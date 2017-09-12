@@ -8,7 +8,7 @@ public class Persoon {
         this(naam, voornaam, new Adres(straat, nummer, postcode, gemeente));
     }
 
-    public Persoon(String naam, String voornaam, Adres adres) {
+    Persoon(String naam, String voornaam, Adres adres) {
         this.naam = naam;
         this.voornaam = voornaam;
         this.adres = adres;

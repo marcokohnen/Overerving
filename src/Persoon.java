@@ -1,9 +1,10 @@
 public class Persoon {
 
     private String naam, voornaam;
+
     private Adres adres;
 
-    public Persoon(String naam, String voornaam, String straat, int nummer, int postcode, String gemeente) {
+    Persoon(String naam, String voornaam, String straat, int nummer, int postcode, String gemeente) {
         this(naam, voornaam, new Adres(straat, nummer, postcode, gemeente));
     }
 
